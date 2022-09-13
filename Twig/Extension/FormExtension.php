@@ -33,7 +33,7 @@ class FormExtension extends AbstractExtension
     /**
      * Constructs.
      *
-     * @param TwigRendererInterface $renderer
+     * @param FormRendererInterface $renderer
      */
     public function __construct(FormRendererInterface $renderer)
     {
