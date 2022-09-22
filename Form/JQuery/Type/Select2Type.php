@@ -31,7 +31,7 @@ class Select2Type extends AbstractType
 
     private $configs;
 
-    public function __construct($widget, array $configs = array())
+    public function __construct($widget = 'Entity', array $configs = array())
     {
         $this->widget = $widget;
         $this->configs = $configs;
